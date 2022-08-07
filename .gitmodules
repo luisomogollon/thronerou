@@ -1,0 +1,3 @@
+[submodule "path/to/thronerou"] 
+   path = path/to/thronerou 
+   url = https://github.com/luisomogollon/thronerou.git
