@@ -9,7 +9,7 @@ export function Persona() {
 
   useEffect(() => {
     if (!Object.keys(persona).length) {
-      navigate("/users");
+      navigate("/users  ");
     }
   }, []);
 
