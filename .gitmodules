@@ -1,3 +1,3 @@
-[submodule "path/to/thronerou"] 
-   path = path/to/thronerou 
+[submodule "themes/thronerou"] 
+   path = themes/thronerou 
    url = https://github.com/luisomogollon/thronerou.git
