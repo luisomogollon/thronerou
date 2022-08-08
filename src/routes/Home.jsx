@@ -7,7 +7,7 @@ function Home() {
       <div className="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight text-left text-gray-900 sm:text-5xl md:text-6xl md:text-center">
           <span className="block">
-            Characters List Of <br />
+            Characters list of <br />
             <span className="block mt-1 text-purple-500 lg:inline lg:mt-0">
               Game Of Thrones
             </span>
