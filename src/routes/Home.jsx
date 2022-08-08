@@ -7,9 +7,9 @@ function Home() {
       <div className="container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight text-left text-gray-900 sm:text-5xl md:text-6xl md:text-center">
           <span className="block">
-            characters list Of <br/>
+            characters list Of <br />
             <span className="block mt-1 text-purple-500 lg:inline lg:mt-0">
-              Game of Thrones characters
+              Game of Thrones
             </span>
           </span>
         </h1>
@@ -18,7 +18,7 @@ function Home() {
         </p>
         <div className="relative flex flex-col justify-center md:flex-row md:space-x-4">
           <button className="flex items-center w-full px-7 py-3 mb-3 text-lg text-white bg-purple-500 rounded-md md:mb-0 hover:bg-purple-700 md:w-auto">
-            <Link to="/Users">Go to  </Link>
+            <Link to="/Users">Go to </Link>
           </button>
         </div>
       </div>
