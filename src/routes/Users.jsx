@@ -26,7 +26,7 @@ function ActoresGame() {
 
   return (
     <div>
-      <h1 className="text-center mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-4xl">
+      <h1 className="text-center mt-1 text-4xl  font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-4xl">
         {" "}
         Game of Thrones Characters
       </h1>
@@ -37,13 +37,13 @@ function ActoresGame() {
         >
           Search
         </label>
-        <div className="relative">
-          <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none ">
+        <div className="relative ">
+          <div className="flex absolute inset-y-1  left-5 self-center pl-20 pointer-events-none ">
             <svg
               aria-hidden="true"
-              className="w-5 h-5 text-gray-500 dark:text-gray-400"
+              className="w-5 h-5 inline-block items-center text-gray-500 dark:text-gray-400"
               stroke="currentColor"
-              viewBox="0 0 24 24"
+              viewBox="0 0 30 10"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -54,13 +54,13 @@ function ActoresGame() {
               ></path>
             </svg>
           </div>
-          <div className=" mx-2 my-4 flex justify-justify-between space-y-52 ">
+          <div className="   mx-24 my-6 flex justify-justify-between space-y-52 ">
             <input
               type="text"
               value={searchParams.get("filter")}
               onChange={handlefilter}
               id="default-search"
-              className="block  p-2 pl-10 w-50  justify-center  text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="block  p-2 pl-5 w-50  justify-center  text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="filter"
               required
             />

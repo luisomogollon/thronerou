@@ -26,19 +26,19 @@ const About = () => {
               <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
                 <span className="text-sm font-bold">✓</span>
               </span>{" "}
-              Maximize productivity and growth
+              React-router-dom
             </li>
             <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
               <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
                 <span className="text-sm font-bold">✓</span>
               </span>{" "}
-              Speed past your competition
+              React-icons
             </li>
             <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
               <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
                 <span className="text-sm font-bold">✓</span>
               </span>{" "}
-              Learn the top techniques
+              Tailwindcss
             </li>
           </ul>
         </div>
@@ -57,19 +57,19 @@ const About = () => {
               <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
                 <span className="text-sm font-bold">✓</span>
               </span>{" "}
-              Automated task management workflow
+              Axios
             </li>
             <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
               <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
                 <span className="text-sm font-bold">✓</span>
               </span>{" "}
-              Detailed analytics for your data
+              React-scripts
             </li>
             <li className="box-border relative py-1 pl-0 text-left text-gray-500 border-solid">
               <span className="inline-flex items-center justify-center w-6 h-6 mr-2 text-white bg-yellow-300 rounded-full">
                 <span className="text-sm font-bold">✓</span>
               </span>{" "}
-              Some awesome integrations
+              Full practices
             </li>
           </ul>
         </div>
