@@ -13,7 +13,7 @@ function Home() {
             </span>
           </span>
         </h1>
-        <p className="w-full  text-center  font-hairline  text-gray-500 md:max sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
+        <p className="w-full  text-center    text-gray-500 md:max sm:text-lg lg:text-centermd:max-w-3xl md:text-center">
           Practice connected Apis and features of React Router Dom
         </p>
         <div className="inline-flex">

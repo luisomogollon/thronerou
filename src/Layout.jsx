@@ -11,32 +11,32 @@ export function Layout() {
               className=" mr-1 flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
             >
               <span className="mx-auto text-xl font-black leading-none text-gray-900 select-none">
-                Luiso<span className="text-indigo-600">.</span>
+                Luiso<span className="text-purple-600">.</span>
               </span>
             </button>
             <nav className="flex flex-wrap items-center mb-5 text-base md:mb-0 md:pl-8 md:ml-8 md:border-l md:border-gray-200">
               <button
                 href="#_"
-                className="mr-4 font-medium leading-6 text-gray-600 hover:text-indigo-700"
+                className="mr-4 font-medium leading-6 text-gray-600 hover:text-purple-700"
               >
                 <Link to="/">Home</Link>{" "}
               </button>
               <button
                 href="#_"
-                className="mr-4 font-medium leading-6 text-gray-600 hover:text-indigo-700"
+                className="mr-4 font-medium leading-6 text-gray-600 hover:text-purple-700"
               >
                 {" "}
                 <Link to="/Users">Characters</Link>{" "}
               </button>
               <button
                 href="#_"
-                className="mr-2 font-medium leading-6 text-gray-600 hover:text-indigo-700"
+                className="mr-2 font-medium leading-6 text-gray-600 hover:text-purple-700"
               >
                 <Link to="/About">About</Link>{" "}
               </button>
               <button
                 href="#_"
-                className="mr-1 font-medium leading-6 text-gray-600 hover:text-indigo-700"
+                className="mr-1 font-medium leading-6 text-gray-600 hover:text-purple-700"
               ></button>
             </nav>
           </div>

@@ -75,7 +75,7 @@ function ActoresGame() {
                   {" "}
                   <Link to={persona.id.toString()}>
                     {" "}
-                    Name: {persona.fullName}{" "}
+                    Name: {persona.firstName}{" "}
                   </Link>
                 </h1>
                 <h5 className="space-y-1 text-ms font-medium  leading-3 text-blue-600 ">
