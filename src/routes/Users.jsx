@@ -26,48 +26,41 @@ function ActoresGame() {
 
   return (
     <div>
-      <h1 className="text-center mt-1 text-4xl  font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-4xl">
+      <h1 className="text-center mt-1 pt-10 p-10 text-4xl  font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-4xl">
         {" "}
         Game of Thrones Characters
       </h1>
-      <form>
-        <label
-          htmlFor="default-search"
-          className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300"
-        >
-          Search
-        </label>
-        <div className="relative ">
-          <div className="flex absolute inset-y-1  left-5 self-center pl-20 pointer-events-none ">
-            <svg
-              aria-hidden="true"
-              className="w-5 h-5 inline-block items-center text-gray-500 dark:text-gray-400"
-              stroke="currentColor"
-              viewBox="0 0 30 10"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              ></path>
-            </svg>
-          </div>
-          <div className="   mx-24 my-6 flex justify-justify-between space-y-52 ">
-            <input
-              type="text"
-              value={searchParams.get("filter")}
-              onChange={handlefilter}
-              id="default-search"
-              className="block  p-2 pl-5 w-50  justify-center  text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="filter"
-              required
-            />
-          </div>
+
+      <div className="flex justify-center">
+        <div className="mb-7 xl:w-96">
+          <input
+            type="text"
+            value={searchParams.get("filter")}
+            onChange={handlefilter}
+            className="
+        form-control
+        block
+        w-full
+        px-3
+        py-1.5
+        text-base
+        font-normal
+        text-gray-700
+        bg-white bg-clip-padding
+        border border-solid border-gray-300
+        rounded
+        transition
+        ease-in-out
+        m-0
+        focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+      "
+            id="default-search"
+            placeholder="filter"
+          />
         </div>
-      </form>
-      <ul className=" grid w-full bg-gray-100 grid-cols-2 gap-10 sm:grid-cols-3  lg:grid-cols-4 relative p-10">
+      </div>
+
+      <ul className=" grid w-full bg-gray-100 grid-cols-2  gap-10 sm:grid-cols-3  lg:grid-cols-4 relative p-11">
         {actores.length === 0 && <p>cargando...</p>}
         {actores
           .filter((persona) => {
