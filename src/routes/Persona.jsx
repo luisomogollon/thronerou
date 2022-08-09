@@ -30,7 +30,7 @@ export function Persona() {
             <h1 className="text-1xl font-semibold text-gray-700">
               Title: {persona.title}
             </h1>
-            <p className="text-sm mt-2 text-gray-700">Two sizes</p>
+            <p className="text-sm mt-2 text-gray-700">Data Base</p>
             <div className="mt-3 space-x-4 flex p-1">
               <div className="p-1 border-4 rounded-full cursor-pointer hover:border-green-200 hover:scale-105 transition transform duration-200">
                 <span className="block h-6 w-6 bg-green-400 rounded-full"> </span>
